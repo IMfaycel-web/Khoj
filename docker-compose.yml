@@ -112,7 +112,6 @@ services:
       # Ensure this is set correctly to avoid CSRF trusted origin or unset cookie issue when trying to access the admin panel.
       # - KHOJ_DOMAIN=192.168.0.104
       # - KHOJ_DOMAIN=khoj.example.com
-      # Replace the KHOJ_ALLOWED_DOMAIN with the server's internally accessible domain or I.P address on the host machine (no http/https prefix).
       # Only set if using a load balancer/reverse_proxy in front of your Khoj server. If unset, it defaults to KHOJ_DOMAIN.
       # For example, if the load balancer service is added to the khoj docker network, set KHOJ_ALLOWED_DOMAIN to khoj's docker service name: `server'.
       # - KHOJ_ALLOWED_DOMAIN=server
