@@ -113,7 +113,6 @@ services:
       # - KHOJ_DOMAIN=192.168.0.104
       # - KHOJ_DOMAIN=khoj.example.com
       # Only set if using a load balancer/reverse_proxy in front of your Khoj server. If unset, it defaults to KHOJ_DOMAIN.
-      # For example, if the load balancer service is added to the khoj docker network, set KHOJ_ALLOWED_DOMAIN to khoj's docker service name: `server'.
       # - KHOJ_ALLOWED_DOMAIN=server
       # - KHOJ_ALLOWED_DOMAIN=127.0.0.1
       # Uncomment the line below to disable telemetry.
