@@ -95,7 +95,6 @@ services:
       # Uncomment appropriate lines below to enable web results with Khoj
       # Ensure you set your provider specific API keys.
       # ---
-      # Paid, Fast API. Only does web search. Get API key from https://serper.dev/
       # - SERPER_DEV_API_KEY=your_serper_dev_api_key
       # - OLOSTEP_API_KEY=your_olostep_api_key
       # - FIRECRAWL_API_KEY=your_firecrawl_api_key
