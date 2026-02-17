@@ -97,7 +97,6 @@ services:
       # ---
       # Paid, Fast API. Only does web search. Get API key from https://serper.dev/
       # - SERPER_DEV_API_KEY=your_serper_dev_api_key
-      # Paid, Higher Read Success API. Only does webpage read. Get API key from https://olostep.com/
       # - OLOSTEP_API_KEY=your_olostep_api_key
       # - FIRECRAWL_API_KEY=your_firecrawl_api_key
       # Paid, Fast API. Does both web search and webpage read. Get API key from https://exa.ai/
