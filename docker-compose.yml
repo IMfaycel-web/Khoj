@@ -83,7 +83,6 @@ services:
       # - OPENAI_BASE_URL=http://host.docker.internal:11434/v1/
       # - KHOJ_DEFAULT_CHAT_MODEL=qwen3
       #
-      # Uncomment appropriate lines below to use chat models by OpenAI, Anthropic, Google.
       # Ensure you set your provider specific API keys.
       # ---
       # - OPENAI_API_KEY=your_openai_api_key
