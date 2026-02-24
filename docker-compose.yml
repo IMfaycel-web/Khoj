@@ -92,7 +92,6 @@ services:
       #
       # Uncomment line below to enable Khoj to use its computer.
       # - KHOJ_OPERATOR_ENABLED=True
-      # Uncomment appropriate lines below to enable web results with Khoj
       # Ensure you set your provider specific API keys.
       # ---
       # - SERPER_DEV_API_KEY=your_serper_dev_api_key
