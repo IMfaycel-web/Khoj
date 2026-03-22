@@ -81,7 +81,6 @@ services:
       # Uncomment line below to use with Ollama running on your local machine at localhost:11434.
       # Change URL to use with other OpenAI API compatible providers like VLLM, LMStudio, DeepInfra, DeepSeek etc.
       # - KHOJ_DEFAULT_CHAT_MODEL=qwen3
-      #
       # Ensure you set your provider specific API keys.
       # ---
       # - OPENAI_API_KEY=your_openai_api_key
