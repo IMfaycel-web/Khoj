@@ -82,7 +82,6 @@ services:
       # Change URL to use with other OpenAI API compatible providers like VLLM, LMStudio, DeepInfra, DeepSeek etc.
       # - KHOJ_DEFAULT_CHAT_MODEL=qwen3
       # Ensure you set your provider specific API keys.
-      # ---
       # - OPENAI_API_KEY=your_openai_api_key
       # - GEMINI_API_KEY=your_gemini_api_key
       # - ANTHROPIC_API_KEY=your_anthropic_api_key
