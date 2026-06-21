@@ -74,7 +74,7 @@ services:
       - KHOJ_ADMIN_PASSWORD=password
       # Default URL of Terrarium, the default Python sandbox used by Khoj to run code. Its container is specified above
       - KHOJ_TERRARIUM_URL=http://sandbox:8080
-      # Uncomment line from https://e2b.dev/.
+      # Uncomment from https://e2b.dev/.
       # - E2B_API_KEY=your_e2b_api_key
       # Default URL of SearxNG, the default web search engine used by Khoj. Its container is specified above
       - KHOJ_SEARXNG_URL=http://search:8080
