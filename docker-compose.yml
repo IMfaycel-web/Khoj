@@ -59,7 +59,7 @@ services:
       - khoj_config:/root/.khoj/
       - khoj_models:/root/.cache/torch/sentence_transformers
       - khoj_models:/root/.cache/huggingface
-      # uncomment to mount docker socket to allow khoj to use its computer.
+      # uncomment line below to mount docker socket to allow khoj to use its computer.
       # - /var/run/docker.sock:/var/run/docker.sock
     # Use 0.0.0.0 to explicitly set the host ip for the service on the container. https://pythonspeed.com/articles/docker-connection-refused/
     environment:
@@ -74,6 +74,7 @@ services:
       - KHOJ_ADMIN_PASSWORD=password
       # Default URL of Terrarium, the default Python sandbox used by Khoj to run code. Its container is specified above
       - KHOJ_TERRARIUM_URL=http://sandbox:8080
+      # Uncomment line to have run code of the your API key from https://e2b.dev/.
       # - E2B_API_KEY=your_e2b_api_key
       # Default URL of SearxNG, the default web search engine used by Khoj. Its container is specified above
       - KHOJ_SEARXNG_URL=http://search:8080
